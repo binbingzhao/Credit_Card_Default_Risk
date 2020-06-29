@@ -1,7 +1,7 @@
 # Credit_Card_Default_Risk
 EDA + Predictive Modeling
 
-「 数据 」
+# 「 数据 」
 
 
 TW某银行客户信用卡数据：
@@ -23,11 +23,10 @@ TW某银行客户信用卡数据：
 
 
 
-「 变量 」
+# 「 变量 」
 
 LIMIT_BAL
-信用额度
-包括个人和家庭/追加
+信用额度 包括个人和家庭/追加
 SEX
 性别
 1 = 男 、2 = 女
@@ -39,7 +38,6 @@ MARRIAGE
 1 = 已婚、2 = 未婚、3 = 其他
 AGE
 年龄
--
 PAY_0
 PAY_2
 ...
@@ -65,7 +63,7 @@ default
 
 
 
-「 算法 」
+# 「 算法 」
 
 本期要解决的问题是信用卡用户是/否违约，属于有Label的监督式学习(Supervised Learning)中的分类(Classification)问题。用到的算法包括：
 
@@ -79,7 +77,9 @@ K邻近算法 K-Nearest Neighbours
 
 
 
-分类 Classification
+# 分类问题 Classification
+
+# Machine Learning
 
 1. 数据清理 Data Cleaning & EDA
 
